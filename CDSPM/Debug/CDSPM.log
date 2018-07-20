@@ -1,0 +1,65 @@
+﻿生成启动时间为 2017/2/27 16:55:18。
+     1>项目“D:\gfy\CDSPM_5\CDSPM\CDSPM.vcxproj”在节点 2 上(Build 个目标)。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (CDSPM.vcxproj, CDSPM_2.vcxproj, CDSPM_3.vcxproj, CDSPM_4.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt cdspm.cpp common.cpp count_candidates.cpp create_candidates.cpp execute.cpp filter_cuts.cpp generate_patterns.cpp filter_cdsps.cpp main.cpp data_process.cpp
+         data_process.cpp
+     1>d:\gfy\cdspm_5\cdspm\data_process.cpp(63): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\gfy\cdspm_5\cdspm\data_process.cpp(66): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\gfy\cdspm_5\cdspm\data_process.cpp(163): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\gfy\cdspm_5\cdspm\data_process.cpp(168): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\gfy\cdspm_5\cdspm\data_process.cpp(172): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\gfy\cdspm_5\cdspm\data_process.cpp(175): warning C4018: “>=”: 有符号/无符号不匹配
+     1>d:\gfy\cdspm_5\cdspm\data_process.cpp(188): warning C4018: “<”: 有符号/无符号不匹配
+         main.cpp
+         filter_cdsps.cpp
+     1>d:\gfy\cdspm_5\cdspm\filter_cdsps.cpp(12): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\gfy\cdspm_5\cdspm\filter_cdsps.cpp(41): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\gfy\cdspm_5\cdspm\filter_cdsps.cpp(49): warning C4018: “>=”: 有符号/无符号不匹配
+     1>d:\gfy\cdspm_5\cdspm\filter_cdsps.cpp(98): warning C4018: “>=”: 有符号/无符号不匹配
+         generate_patterns.cpp
+         filter_cuts.cpp
+         execute.cpp
+         create_candidates.cpp
+     1>d:\gfy\cdspm_5\cdspm\create_candidates.cpp(26): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\gfy\cdspm_5\cdspm\create_candidates.cpp(29): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\gfy\cdspm_5\cdspm\create_candidates.cpp(43): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\gfy\cdspm_5\cdspm\create_candidates.cpp(46): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\gfy\cdspm_5\cdspm\create_candidates.cpp(100): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\gfy\cdspm_5\cdspm\create_candidates.cpp(102): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\gfy\cdspm_5\cdspm\create_candidates.cpp(166): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\gfy\cdspm_5\cdspm\create_candidates.cpp(178): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\gfy\cdspm_5\cdspm\create_candidates.cpp(180): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\gfy\cdspm_5\cdspm\create_candidates.cpp(196): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\gfy\cdspm_5\cdspm\create_candidates.cpp(206): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\gfy\cdspm_5\cdspm\create_candidates.cpp(210): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\gfy\cdspm_5\cdspm\create_candidates.cpp(214): warning C4390: “;”: 找到空的受控语句；这是否是有意的?
+         count_candidates.cpp
+     1>d:\gfy\cdspm_5\cdspm\count_candidates.cpp(9): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\gfy\cdspm_5\cdspm\count_candidates.cpp(14): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\gfy\cdspm_5\cdspm\count_candidates.cpp(18): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\gfy\cdspm_5\cdspm\count_candidates.cpp(35): warning C4018: “>=”: 有符号/无符号不匹配
+         common.cpp
+     1>d:\gfy\cdspm_5\cdspm\common.cpp(27): warning C4018: “<”: 有符号/无符号不匹配
+         cdspm.cpp
+     1>d:\gfy\cdspm_5\cdspm\cdspm.cpp(51): warning C4018: “>=”: 有符号/无符号不匹配
+     1>d:\gfy\cdspm_5\cdspm\cdspm.cpp(77): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\gfy\cdspm_5\cdspm\cdspm.cpp(93): warning C4018: “<”: 有符号/无符号不匹配
+         正在生成代码...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\gfy\CDSPM_5\Debug\CDSPM_5.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\gfy\CDSPM_5\Debug\CDSPM_5.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\gfy\CDSPM_5\Debug\CDSPM_5.lib" /MACHINE:X86 Debug\cdspm.obj
+         Debug\common.obj
+         Debug\count_candidates.obj
+         Debug\create_candidates.obj
+         Debug\execute.obj
+         Debug\filter_cuts.obj
+         Debug\generate_patterns.obj
+         Debug\filter_cdsps.obj
+         Debug\main.obj
+         Debug\data_process.obj
+         CDSPM.vcxproj -> D:\gfy\CDSPM_5\Debug\CDSPM_5.exe
+     1>已完成生成项目“D:\gfy\CDSPM_5\CDSPM\CDSPM.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:10.73

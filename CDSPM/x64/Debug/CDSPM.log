@@ -1,0 +1,163 @@
+﻿生成启动时间为 2018/7/16 22:29:41。
+     1>项目“D:\gfy\CDSPM_p\CDSPM\CDSPM.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /Od /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt cdspm.cpp common.cpp count_candidates.cpp create_candidates.cpp data_process.cpp execute.cpp filter_cdsps.cpp filter_cuts.cpp fisher.cpp generate_patterns.cpp main.cpp sort_pval.cpp
+         main.cpp
+     1>d:\gfy\cdspm_p\cdspm\cdspm.h(24): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\gfy\cdspm_p\cdspm\cdspm.h(25): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+         正在生成代码...
+         正在编译...
+         sort_pval.cpp
+     1>d:\gfy\cdspm_p\cdspm\cdspm.h(24): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\gfy\cdspm_p\cdspm\cdspm.h(25): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+     1>sort_pval.cpp(63): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>sort_pval.cpp(64): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\utility(157): warning C4244: “初始化”: 从“double”转换到“const int”，可能丢失数据
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xmemory0(600): 参见对正在编译的函数 模板 实例化“std::pair<const _Kty,_Ty>::pair<double,std::list<int,std::allocator<int>>,void>(std::pair<double,std::list<int,std::allocator<int>>> &&)”的引用
+                 with
+                 [
+                     _Kty=int
+         ,            _Ty=std::list<int,std::allocator<int>>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xmemory0(600): 参见对正在编译的函数 模板 实例化“std::pair<const _Kty,_Ty>::pair<double,std::list<int,std::allocator<int>>,void>(std::pair<double,std::list<int,std::allocator<int>>> &&)”的引用
+                 with
+                 [
+                     _Kty=int
+         ,            _Ty=std::list<int,std::allocator<int>>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xmemory0(723): 参见对正在编译的函数 模板 实例化“void std::allocator<_Other>::construct<_Objty,_Ty>(_Objty *,_Ty &&)”的引用
+                 with
+                 [
+                     _Other=std::_Tree_node<std::pair<const int,std::list<int,std::allocator<int>>>,void *>
+         ,            _Objty=std::pair<const int,std::list<int,std::allocator<int>>>
+         ,            _Ty=std::pair<double,std::list<int,std::allocator<int>>>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xmemory0(723): 参见对正在编译的函数 模板 实例化“void std::allocator<_Other>::construct<_Objty,_Ty>(_Objty *,_Ty &&)”的引用
+                 with
+                 [
+                     _Other=std::_Tree_node<std::pair<const int,std::list<int,std::allocator<int>>>,void *>
+         ,            _Objty=std::pair<const int,std::list<int,std::allocator<int>>>
+         ,            _Ty=std::pair<double,std::list<int,std::allocator<int>>>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xmemory0(872): 参见对正在编译的函数 模板 实例化“void std::allocator_traits<_Alloc>::construct<_Ty,std::pair<double,std::list<int,std::allocator<int>>>>(std::allocator<_Other> &,_Objty *,std::pair<double,std::list<int,std::allocator<int>>> &&)”的引用
+                 with
+                 [
+                     _Alloc=std::allocator<std::_Tree_node<std::pair<const int,std::list<int,std::allocator<int>>>,void *>>
+         ,            _Ty=std::pair<const int,std::list<int,std::allocator<int>>>
+         ,            _Other=std::_Tree_node<std::pair<const int,std::list<int,std::allocator<int>>>,void *>
+         ,            _Objty=std::pair<const int,std::list<int,std::allocator<int>>>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xmemory0(872): 参见对正在编译的函数 模板 实例化“void std::allocator_traits<_Alloc>::construct<_Ty,std::pair<double,std::list<int,std::allocator<int>>>>(std::allocator<_Other> &,_Objty *,std::pair<double,std::list<int,std::allocator<int>>> &&)”的引用
+                 with
+                 [
+                     _Alloc=std::allocator<std::_Tree_node<std::pair<const int,std::list<int,std::allocator<int>>>,void *>>
+         ,            _Ty=std::pair<const int,std::list<int,std::allocator<int>>>
+         ,            _Other=std::_Tree_node<std::pair<const int,std::list<int,std::allocator<int>>>,void *>
+         ,            _Objty=std::pair<const int,std::list<int,std::allocator<int>>>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xtree(933): 参见对正在编译的函数 模板 实例化“void std::_Wrap_alloc<std::allocator<_Other>>::construct<_Ty,std::pair<double,std::list<int,std::allocator<int>>>>(_Ty *,std::pair<double,std::list<int,std::allocator<int>>> &&)”的引用
+                 with
+                 [
+                     _Other=std::_Tree_node<std::pair<const int,std::list<int,std::allocator<int>>>,void *>
+         ,            _Ty=std::pair<const int,std::list<int,std::allocator<int>>>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xtree(933): 参见对正在编译的函数 模板 实例化“void std::_Wrap_alloc<std::allocator<_Other>>::construct<_Ty,std::pair<double,std::list<int,std::allocator<int>>>>(_Ty *,std::pair<double,std::list<int,std::allocator<int>>> &&)”的引用
+                 with
+                 [
+                     _Other=std::_Tree_node<std::pair<const int,std::list<int,std::allocator<int>>>,void *>
+         ,            _Ty=std::pair<const int,std::list<int,std::allocator<int>>>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xtree(1158): 参见对正在编译的函数 模板 实例化“std::_Tree_node<std::pair<const _Kty,_Ty>,void *> *std::_Tree_buy<std::pair<const _Kty,_Ty>,std::allocator<std::pair<const _Kty,_Ty>>>::_Buynode<std::pair<double,std::list<int,std::allocator<int>>>>(std::pair<double,std::list<int,std::allocator<int>>> &&)”的引用
+                 with
+                 [
+                     _Kty=int
+         ,            _Ty=std::list<int,std::allocator<int>>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xtree(1158): 参见对正在编译的函数 模板 实例化“std::_Tree_node<std::pair<const _Kty,_Ty>,void *> *std::_Tree_buy<std::pair<const _Kty,_Ty>,std::allocator<std::pair<const _Kty,_Ty>>>::_Buynode<std::pair<double,std::list<int,std::allocator<int>>>>(std::pair<double,std::list<int,std::allocator<int>>> &&)”的引用
+                 with
+                 [
+                     _Kty=int
+         ,            _Ty=std::list<int,std::allocator<int>>
+                 ]
+                 sort_pval.cpp(58): 参见对正在编译的函数 模板 实例化“std::pair<std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const _Kty,_Ty>>>>,bool> std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::insert<std::pair<double,std::list<int,std::allocator<int>>>>(_Valty &&)”的引用
+                 with
+                 [
+                     _Kty=int
+         ,            _Ty=std::list<int,std::allocator<int>>
+         ,            _Pr=std::less<int>
+         ,            _Alloc=std::allocator<std::pair<const int,std::list<int,std::allocator<int>>>>
+         ,            _Valty=std::pair<double,std::list<int,std::allocator<int>>>
+                 ]
+                 sort_pval.cpp(58): 参见对正在编译的函数 模板 实例化“std::pair<std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const _Kty,_Ty>>>>,bool> std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::insert<std::pair<double,std::list<int,std::allocator<int>>>>(_Valty &&)”的引用
+                 with
+                 [
+                     _Kty=int
+         ,            _Ty=std::list<int,std::allocator<int>>
+         ,            _Pr=std::less<int>
+         ,            _Alloc=std::allocator<std::pair<const int,std::list<int,std::allocator<int>>>>
+         ,            _Valty=std::pair<double,std::list<int,std::allocator<int>>>
+                 ]
+         generate_patterns.cpp
+     1>d:\gfy\cdspm_p\cdspm\cdspm.h(24): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\gfy\cdspm_p\cdspm\cdspm.h(25): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+         fisher.cpp
+     1>d:\gfy\cdspm_p\cdspm\cdspm.h(24): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\gfy\cdspm_p\cdspm\cdspm.h(25): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+     1>fisher.cpp(14): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>fisher.cpp(15): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+         filter_cuts.cpp
+     1>d:\gfy\cdspm_p\cdspm\cdspm.h(24): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\gfy\cdspm_p\cdspm\cdspm.h(25): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+         filter_cdsps.cpp
+     1>d:\gfy\cdspm_p\cdspm\cdspm.h(24): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\gfy\cdspm_p\cdspm\cdspm.h(25): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+     1>filter_cdsps.cpp(65): warning C4305: “return”: 从“int”到“bool”截断
+     1>filter_cdsps.cpp(93): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+         execute.cpp
+     1>d:\gfy\cdspm_p\cdspm\cdspm.h(24): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\gfy\cdspm_p\cdspm\cdspm.h(25): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+         data_process.cpp
+     1>d:\gfy\cdspm_p\cdspm\cdspm.h(24): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\gfy\cdspm_p\cdspm\cdspm.h(25): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+     1>data_process.cpp(179): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+         create_candidates.cpp
+     1>d:\gfy\cdspm_p\cdspm\cdspm.h(24): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\gfy\cdspm_p\cdspm\cdspm.h(25): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+     1>create_candidates.cpp(80): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>create_candidates.cpp(180): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>create_candidates.cpp(209): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>create_candidates.cpp(223): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>create_candidates.cpp(224): warning C4390: “;”: 找到空的受控语句；这是否是有意的?
+         count_candidates.cpp
+     1>d:\gfy\cdspm_p\cdspm\cdspm.h(24): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\gfy\cdspm_p\cdspm\cdspm.h(25): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+     1>count_candidates.cpp(25): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>count_candidates.cpp(26): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+         common.cpp
+     1>common.cpp(9): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>common.cpp(15): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>common.cpp(26): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+         cdspm.cpp
+     1>d:\gfy\cdspm_p\cdspm\cdspm.h(24): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\gfy\cdspm_p\cdspm\cdspm.h(25): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+         正在生成代码...
+     1>d:\gfy\cdspm_p\cdspm\count_candidates.cpp(70): warning C4715: “cdspm::fac”: 不是所有的控件路径都返回值
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\gfy\CDSPM_p\x64\Debug\CDSPM_5.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\gfy\CDSPM_p\x64\Debug\CDSPM_5.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\gfy\CDSPM_p\x64\Debug\CDSPM_5.lib" /MACHINE:X64 x64\Debug\cdspm.obj
+         x64\Debug\common.obj
+         x64\Debug\count_candidates.obj
+         x64\Debug\create_candidates.obj
+         x64\Debug\execute.obj
+         x64\Debug\filter_cuts.obj
+         x64\Debug\fisher.obj
+         x64\Debug\generate_patterns.obj
+         x64\Debug\filter_cdsps.obj
+         x64\Debug\main.obj
+         x64\Debug\data_process.obj
+         x64\Debug\sort_pval.obj
+         CDSPM.vcxproj -> D:\gfy\CDSPM_p\x64\Debug\CDSPM_5.exe
+     1>已完成生成项目“D:\gfy\CDSPM_p\CDSPM\CDSPM.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:14.41
